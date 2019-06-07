@@ -1,0 +1,30 @@
+{
+  "name": "link-manager",
+  "version": "1.0.0",
+  "description": "Link manager app build on Node JS that saves your favorite link.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nahidsaikat/Link-Manager.git"
+  },
+  "author": "nahidsaikat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nahidsaikat/Link-Manager/issues"
+  },
+  "homepage": "https://github.com/nahidsaikat/Link-Manager#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.13",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
+  }
+}
+
