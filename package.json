@@ -4,8 +4,7 @@
   "description": "Link manager app build on Node JS that saves your favorite link.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -27,4 +26,3 @@
     "morgan": "~1.9.1"
   }
 }
-
