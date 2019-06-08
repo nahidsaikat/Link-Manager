@@ -1,17 +1,24 @@
-var express = require('express');
-var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
+const express = require('express');
+const path = require('path');
+const cookieParser = require('cookie-parser');
+const logger = require('morgan');
 const mongoose = require("mongoose");
+const nunjucks = require('nunjucks');
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+const indexRouter = require('./routes/index');
+const usersRouter = require('./routes/users');
 
-var app = express();
+const app = express();
 
 mongoose.connect('mongodb://localhost:27017/link-manager', { useNewUrlParser: true })
     .then(() => 'You are now connected to Mongo!')
     .catch((err) => console.error('Something went wrong', err));
+
+const env = nunjucks.configure('views', {
+    autoescape: true,
+    express: app,
+    watch: true
+});
 
 app.use(logger('dev'));
 app.use(express.json());
