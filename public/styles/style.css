@@ -13,3 +13,18 @@ footer {
 .large-font {
     font-size: 27px;
 }
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    width: 100%;
+}
+  
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.mr130 {
+    margin-right: 130px !important;
+}
