@@ -25,11 +25,17 @@ footer {
     text-align: center;
 }
 
-.mt130 {
-    margin-top: 100px !important;
-    margin-bottom: 100px !important;
+.container-style {
+    margin-top: 80px !important;
+    margin-bottom: 60px !important;
 }
 
-.w100 {
-    width: 300px !important;
+.card-style {
+    width: 250px !important;
+    padding: 5px;
+    margin: 5px;
+}
+
+a {
+    text-decoration: none !important;
 }
