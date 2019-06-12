@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <mata name="author" content="nahidsaikat">
+    <mata name="description" content="Link Manager">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="/fontawesome/css/all.css">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    {% block css %}{% endblock %}
+
+    <title>Link Manager</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-info">
+        <a class="navbar-brand large-font" href="/">
+            {# <img src="/media/img/saikat.jpeg" width="35" height="35" class="d-inline-block align-top rounded" alt="Link Manager"> #}
+            Link Manager
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto text-center mr130">
+                <a class="btn btn-link large-font" href="#">
+                    <i class="far fa-plus-square text-white"></i>
+                </a>
+            </ul>
+            <div class="my-2 my-lg-0">
+                <a class="btn btn-link large-font" href="#">
+                    <i class="fas fa-cog text-white"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    {% block content %}
+
+    {% endblock %}
+
+    <footer class="page-footer font-small green fixed-bottom text-white">
+        <div class="footer-copyright text-center py-3"> © 2019 Copyright:
+            <a href="https://nahidsaikat.com/" class="text-white"> Nahid Saikat</a>
+        </div>
+    </footer>
+
+    <script src="/jquery/js/jquery.min.js"></script>
+    <script src="/jquery/js/popper.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+    <script defer src="/fontawesome/js/all.js"></script>
+    {% block js %}{% endblock %}
+  </body>
+</html>
