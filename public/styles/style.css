@@ -1,5 +1,5 @@
 body {
-    background: #eaf0f1;
+    background: white;
 }
 
 footer {
@@ -32,7 +32,6 @@ footer {
 
 .card-style {
     width: 250px !important;
-    padding: 5px;
     margin: 5px;
 }
 
