@@ -36,14 +36,29 @@ hr {
     margin-left: 220px;
 }
 
+.ml20 {
+    margin-left: 20px;
+}
+
+.mr15 {
+    margin-right: 15px;
+}
+
+.container {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
 .container-style {
-    margin-left: 230px;
-    margin-top: 75px;
+    margin-left: 225px;
+    margin-top: 85px;
+    margin-bottom: 15px;
 }
 
 .card-style {
     width: 250px !important;
     margin: 15px;
+    padding: 2px;
 }
 
 a {
@@ -75,10 +90,10 @@ ul li a {
     display:block;
 }
 
-ul li:hover, ul li:focus {
+ul li:hover a, ul li:focus a {
     background-color:#3b7b86;
 }
 
 ul li a {
-    padding: 7px 0px 5px 20px;
+    padding: 7px 0px 5px 30px;
 }
