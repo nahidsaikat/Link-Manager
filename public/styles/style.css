@@ -33,7 +33,7 @@ hr {
 }
 
 .ml220 {
-    margin-left: 220px;
+    margin-left: 260px;
 }
 
 .ml20 {
@@ -71,7 +71,7 @@ a {
 }
 
 #sidebar {
-    width: 220px;
+    width: 260px;
     position: fixed;
     top: 0;
     left: 0;
@@ -84,6 +84,10 @@ a {
 
 .brand {
     padding-top: 15px;
+}
+
+.lightgray {
+    color: lightgray;
 }
 
 ul li a {
