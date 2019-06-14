@@ -10,6 +10,14 @@ footer {
     background-color: #8080803a;
 }
 
+.bottom {
+    position: fixed;
+    height: 40px;
+    bottom: 0;
+    width: 260px;
+    padding-right: 15px;
+}
+
 hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
